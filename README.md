@@ -8,6 +8,8 @@ It provides a way for musicians to "jam" (improvise) together over the Internet;
 
 ## Install
 
+You can install and run it using Docker or Command Line
+
 ### Docker
 
 First, build the Docker image with the following command
@@ -30,7 +32,7 @@ The server will be available in port localhost:2049
 On your bash, run the following commands:
 ```bash
 git clone https://github.com/r-sacchetti/ninjam.git
-cd /ninjam/ninjam/server &&
+cd /ninjam/ninjam/server
 make
 ./ninjamsrv example.cfg
 ```
